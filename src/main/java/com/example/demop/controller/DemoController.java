@@ -12,7 +12,7 @@ public class DemoController {
 	@GetMapping("/headline")
 	@ResponseBody
 	public String news() {
-		System.out.println("Changed");
+		System.out.println("Changing the demo controller");
 		return "News app getting tested";
 	}
 
