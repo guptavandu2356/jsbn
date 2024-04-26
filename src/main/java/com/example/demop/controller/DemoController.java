@@ -13,6 +13,7 @@ public class DemoController {
 	@ResponseBody
 	public String news() {
 		System.out.println("Controller Changed");
+		System.out.println("Controller Changed");
 		return "News app getting tested";
 	}
 
