@@ -14,6 +14,7 @@ public class DemoController {
 	public String news() {
 		System.out.println("Controller Changed");
 		System.out.println("Controller Changed");
+		System.out.println("Controller Changed Thrice");
 		return "News app getting tested";
 	}
 
